@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <h1> Registration Form </h1>
+    <form action="#" method="get">
+    <table>
+        <tbody>
+            <tr>
+                <th>User name</th>
+                <td> <input name="Username" placeholder="Enter the Name" autocomplete="off" required="required" type="text"></td>
+            </tr>
+            <tr>
+                <th>User email</th>
+                <td> <input name="email" placeholder="Enter the Email" type="email"></td>
+            </tr>
+            <tr>
+                <th>User Number</th>
+                <td> <input autofocus name="number" title="###-####-#####" pattern="\d{3}-\d{4}-\d{5}" placeholder="Mobile Number" type="tel"></td>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+                <td> <input type="submit" value="Register"></td>
+            </tr>
+        </tbody>
+    </table>
+   </form>
+   <datalist id="roles">
+    <option value="Designer"> </option>
+    <option value="Developer"> </option>
+    <option value="Manager"> </option>
+    <option value="Analyst"> </option>
+   </datalist>
+   
+</body>
+</html>
